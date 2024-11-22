@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menuContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 78px;
+    background-color: rgb(199, 199, 199);
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.menuContainer h2{
+    background-color: white;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.menuLinks{
+    display: flex;
+    gap: 16px;
+}
+
+.menuLinks a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 8px 26px 8px 26px;
+    border-radius: 8px;
+}
+
+.menuLinks input{
+    border: none;
+    border-radius: 8px;
+}
+
+.imagemContainer{
+    width: 100%;
+}
+
+.imagemContainer img{
+    width: 100%;
+}
+
+.textsContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 280px;
+}
+
+.textsContainer p{
+    width: 20%;
+    background-color: rgb(199, 199, 199);
+    padding: 36px;
+    border-radius: 6px;
+}
+
+.cardsSectionContainer{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    gap: 56px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linkButton{
+    background-color: rgb(199, 199, 199);
+    padding: 12px 180px 12px 180px;
+    border-radius: 6px;
+}
+
+.cardsContainer{
+    display: flex;
+    gap: 32px;
+}
+
+.card{
+    background-color: rgb(199, 199, 199);
+    width: 260px;
+    height: 240px;
+}
+
